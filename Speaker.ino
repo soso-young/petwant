@@ -10,7 +10,7 @@ void setup()
   
   soft.begin(9600);
   speaking.begin();
-  speaking.set_wifi("김소영", "20001207");   //wifi 이름과 비번 입력
+  speaking.set_wifi("고유빈", "20195141"); //wifi 아이디 비번 변경 완료
 }
 
 void loop()
