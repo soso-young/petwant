@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "690185322201",
+    "project_id": "pet-register-application",
+    "storage_bucket": "pet-register-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690185322201:android:a36d16b3d1e390646588c8",
+        "android_client_info": {
+          "package_name": "com.example.petregisterapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690185322201-3dk90il0crfvjl0rjtdcp5rcanrgan6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSjODVc3mZ442MJ4PMt9CGRGd1cTZGzxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690185322201-3dk90il0crfvjl0rjtdcp5rcanrgan6g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
