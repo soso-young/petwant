@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 mFirebaseAuth.signOut();
-
                 Intent intent = new Intent(MainActivity.this, login_activity.class); //로그인 화면으로 이동
                 startActivity(intent);
             }
@@ -51,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 //  Intent intent = new Intent(MainActivity.this, Camera.class); //카메라 화면으로 이동
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://naver.com"));  //카메라 버튼 클릭시 영상주소로 접속
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://172.20.10.3"));  //카메라 버튼 클릭시 영상주소로 접속(you)
                 startActivity(intent);
             }
         });
