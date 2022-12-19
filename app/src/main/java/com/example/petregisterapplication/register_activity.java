@@ -64,7 +64,6 @@ public class register_activity extends AppCompatActivity {
                 String strUsername = mEtUsername.getText().toString();
                 String strPetname = mEtPetname.getText().toString();
 
-
                 if (strPwd.equals(strRpwd)){ //비밀번호와 비밀번호 재확인 일치여부 확인
 
                     //firebase Auth 진행(인증처리 절차 진행)

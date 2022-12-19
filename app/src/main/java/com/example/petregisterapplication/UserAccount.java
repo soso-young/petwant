@@ -11,6 +11,8 @@ public class UserAccount {
     private String rpwd;
     private String username;
     private String petname;
+    private String id;
+    private String name;
 
     public UserAccount(){ }//firebase를 사용을 위한 기본 생성자
 
@@ -50,4 +52,21 @@ public class UserAccount {
 
     public void setPetname(String petname) {this.petname = petname;}
 
+    public String getId() {
+        return id;
+    }
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
+
+
+
