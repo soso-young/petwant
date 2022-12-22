@@ -1,7 +1,6 @@
 package com.example.petregisterapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -15,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     private FirebaseAuth mFirebaseAuth; // firebase 인증처리
     private EditText eTitle;
     private EditText eMessage;
-    private Button channel1btn;
+    private Button channel1btn,btn_opinion;
     private notification mNotification;
 
 
@@ -29,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 mFirebaseAuth.signOut();
-
                 Intent intent = new Intent(MainActivity.this, login_activity.class); //로그인 화면으로 이동
                 startActivity(intent);
             }
@@ -40,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(MainActivity.this, Speaker.class); //스피커 화면으로 이동
+                Intent intent = new Intent(MainActivity.this,Speaker_activity.class);
+                //스피커 버튼 클릭 시 스피커 화면으로 접속
                 startActivity(intent);
             }
         });
@@ -50,8 +49,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                //  Intent intent = new Intent(MainActivity.this, Camera.class); //카메라 화면으로 이동
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://naver.com"));  //카메라 버튼 클릭시 영상주소로 접속
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://172.20.10.3"));
+                //카메라 버튼 클릭 시 영상주소로 접속
                 startActivity(intent);
             }
         });
@@ -71,6 +70,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, notification.class); //알림화면으로 이동
+                startActivity(intent);
+            }
+        });
+
+        btn_opinion=(Button) findViewById(R.id.opinion);
+        btn_opinion.setOnClickListener(new View.OnClickListener(){   //'관리자 문의' 버튼을 누르면
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, memoInsert.class); //관리자 문의(memoinsert)화면으로 이동
                 startActivity(intent);
             }
         });

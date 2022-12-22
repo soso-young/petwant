@@ -13,8 +13,8 @@
         android:gravity="left">
 
         <ImageView
-            android:layout_width="245dp"
-            android:layout_height="245dp"
+            android:layout_width="230dp"
+            android:layout_height="230dp"
             android:src="@drawable/golden_retriever"/>
 
         <TextView
@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/black"
-            android:textSize="30sp" />
+            android:textSize="25sp" />
 
     </LinearLayout>
 
@@ -31,7 +31,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textStyle="bold"
         android:textColor="@color/black"
         android:text="권장예방접종: DA2PPL"/>
@@ -39,7 +39,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textStyle="italic"
         android:textColor="@color/black"
         android:text="(6종,파보,개홍역,아데노,전염성간염,\n 파라인플루엔자, 랩토스파이로시스)"/>
@@ -47,17 +47,17 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textStyle="bold"
         android:textColor="@color/black"
         android:text="첫 주사:생후6~8주\n 그 이후:2~3주 간격 5회이상\n 매년 1회 간격 추가\n 코로나장염: 첫 주사는 생후 6~8주
-                      그 이후:2~3주 간격 3회, 매년1회추가\n 광견병:첫 주사는 생후 3개월이상 1회\n 6개월 뒤 1회,매년 1회
+                      \n그 이후:2~3주 간격 3회, 매년1회추가\n 광견병:첫 주사는 생후 3개월이상 1회\n 6개월 뒤 1회,매년 1회
                       \n 켄넬코프:첫 주사: 생후6~8주,\n 그 이후:2~3주 간격 3회, 6개월 1회"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textStyle="bold"
         android:textColor="@color/black"
         android:text="권장 사료량: 400g ~ 750g"/>
@@ -65,7 +65,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textStyle="bold"
         android:textColor="@color/black"
         android:text="권장 급수량: 400g(975ml) ~ 750g(1830ml)"/>
@@ -73,7 +73,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textStyle="bold"
         android:textColor="@color/black"
         android:text="적정 몸무게: 27Kg ~ 36Kg"/>
@@ -81,7 +81,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textStyle="bold"
         android:textColor="@color/black"
         android:text="간식추천: 개껌, 펫 밀크, 육포, 펫 쿠키"/>
